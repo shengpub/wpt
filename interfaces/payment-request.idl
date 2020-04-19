@@ -48,7 +48,7 @@ dictionary PaymentDetailsBase {
 
 dictionary PaymentDetailsInit : PaymentDetailsBase {
   DOMString id;
-  required PaymentItem total;
+  PaymentItem total;
 };
 
 dictionary PaymentDetailsUpdate : PaymentDetailsBase {
